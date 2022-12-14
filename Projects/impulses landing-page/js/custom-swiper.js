@@ -98,4 +98,15 @@ var swiper = new Swiper('.swiper-container', {
     }
 });
 
-
+document.getElementById("swiperid").addEventListener("wheel", (e) => {
+    console.log(e);
+    const isEnd = swiper.isEnd;
+    const isBegining = swiper.isBeginning;
+    if (e.deltaY > 0) {
+        if (!isEnd) { e.preventDefault()
+        swiper.slideNext()}
+    } else {
+        if (!isBegining) { e.preventDefault()
+        swiper.slidePrev()}
+    }
+})

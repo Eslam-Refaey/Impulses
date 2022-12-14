@@ -110,6 +110,8 @@ p{
 }
 
 .show-off .midify{
+    width: 99%;
+    margin: auto;
     display: flex;
     justify-content: flex-start;
     align-items: center;
