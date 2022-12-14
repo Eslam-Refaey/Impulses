@@ -10,7 +10,7 @@
 .product-slider .swiper .swiper-navBtn{
     position: absolute !important;
     top: 85% !important;
-    left: 45%;
+    left: 40%;
     transform: translateX(-50%);
     border: 2px solid #475569;
     padding: 20px;
@@ -18,7 +18,7 @@
 }
 
 .product-slider .swiper .swiper-navBtn.next{
-    left: 55% !important;
+    left: 60% !important;
 }
 .card{
     border: none;

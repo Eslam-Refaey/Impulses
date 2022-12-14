@@ -86,30 +86,16 @@ var swiper = new Swiper(".slide-content.testimonial", {
 var swiper = new Swiper('.swiper-container', {
     direction: 'vertical',
     grabcursor: 'true',
+    mousewheel: true,
+    setTransition : ('.swiper-container', 5000),
     pagination: {
         el: '.swiper-pagination',
         clickable: true
     },
     autoplay: {
-        delay: 2500,
-        disableOnInteraction: false
+        delay: 4500,
+        disableOnInteraction: false,
     }
 });
 
 
-
-
-
-
-//   var swiper = new Swiper(".swiper-container", {
-//     direction: 'vertical',
-//     effect: 'coverflow',
-//     mousewheel: true,
-//     slidesPerView: 1,
-//     pagination: {
-//       el: ".swiper-pagination",
-//       type: "progressbar",
-//     },
-//     clickable: true,
-//     type: 'progressbar',
-//   });
