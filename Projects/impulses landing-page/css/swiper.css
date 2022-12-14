@@ -1,0 +1,139 @@
+.slide-container{
+    max-width: 95%;
+    width: 100%;
+    padding: 40px 0 !important;
+    position: relative;
+}
+.slide-container .slide-content {
+    padding-bottom: 50px
+}
+.product-slider .swiper .swiper-navBtn{
+    position: absolute !important;
+    top: 85% !important;
+    left: 45%;
+    transform: translateX(-50%);
+    border: 2px solid #475569;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.product-slider .swiper .swiper-navBtn.next{
+    left: 55% !important;
+}
+.card{
+    border: none;
+}
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+.card-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: fit;
+}
+.slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+}
+.image-content, .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+.swiper-navBtn{
+    color: #DF2390 !important;
+    transition: 0.5s ease;
+}
+.swiper-navBtn:hover{
+    color: #3C0F65 !important;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 30px !important;
+}
+
+
+
+
+/* ============================================================= */
+/* testimonial slider */
+
+
+.testimonial-slider .slide-container{
+    max-width: 95%;
+    width: 100%;
+    padding: 40px 0 !important;
+    position: relative;
+}
+.testimonial-slider .slide-container .card{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+}
+.testimonial-slider .slide-content{
+    margin: 0 40px;
+    padding: 40px 0;
+    overflow: hidden;
+}
+.testimonial-slider .slide-content .quote, .testimonial-slider .slide-content .profile{
+    margin: 4em 0;
+}
+
+.testimonial-slider .slide-content .profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around
+}
+.testimonial-slider .slide-content .profile .name{
+    margin: 1em auto 0;
+    color: #0F172A;
+}
+.testimonial-slider .slide-content .profile .title{
+    color: #94A3B8
+}
+
+
+
+
+
+
+
+/* =========================================================== */
+/* Vertical Slider */
+/* =========================================================== */
+.midify .swiper-container {
+    margin: auto;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.midify .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.midify .swiper-pagination{
+    position: absolute !important;
+    left: 65% !important;
+    top: 10% !important;
+    transform: rotateZ(90deg) !important
+}
+
