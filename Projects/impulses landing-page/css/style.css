@@ -39,7 +39,7 @@ section{
 
 h2{
     font-family: 'MBF';
-    font-size: 58px;
+    font-size: 75px;
     color: #0F172A;
     text-transform: uppercase;
 }
@@ -50,16 +50,19 @@ h4{
 }
 p{
     font-family: 'poppins';
-    font-size: 18px;
+    font-size: 24px;
     color: #475569;
 }
 
 @media (max-width: 660px) {
     h2{
-        font-size: 32px;
+        font-size: 40px;
     }
     h4{
         font-size: 21px;
+    }
+    p{
+        font-size: 18px;
     }
 }
 
@@ -97,8 +100,9 @@ p{
     transition: 0.2s;
 }
 
+
 .show-off{
-    padding: 80px 0 0;
+    padding: 80px 0 40px;
 }
 .show-off .phone-img{
     width: 550px;
@@ -122,12 +126,12 @@ p{
     background: #F1F5F9;
 }
 
-.show-off .midify h4{
+.new-section .show-off .midify h4{
     font-size: 7em;
     text-align: left;
     font-family: 'MBF';
 }
-.show-off .midify p{
+.new-section .show-off .midify p{
     font-size: 3em;
     text-align: left;
 }
@@ -178,11 +182,11 @@ p{
     .show-off .headline ul li .cta .cta-btn{
         display: block;
     }
-    .show-off .midify h4{
-        font-size: 3.5em;
+    .new-section .show-off .midify h4{
+        font-size: 3.5em !important;
     }
-    .show-off .midify p{
-        font-size: 2em;
+    .new-section .show-off .midify p{
+        font-size: 1.2em;
     }
 }
 
@@ -464,6 +468,10 @@ p{
     /* margin-left: 0.5em; */
     margin-bottom: 0;
     color: #475569
+}
+
+.footer p{
+    font-size: 18px;
 }
 
 .footer .footer-content .shifts p{
