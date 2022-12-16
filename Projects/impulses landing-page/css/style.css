@@ -27,7 +27,7 @@ body{
     margin: auto;
 }
 section{
-    padding: 50px 0 70px
+    padding: 30px 0 0
 }
 
 .cyan-section , .cyan-overlay{
@@ -54,7 +54,7 @@ p{
     color: #475569;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 660px) {
     h2{
         font-size: 32px;
     }
@@ -68,9 +68,11 @@ p{
 /* Start Hero Section */
 /* ====================================================================== */
 
-
+.section.hero{
+    padding-bottom: 10px !important;
+}
 .hero .topbar{
-    padding: 2em;
+    padding: 1em 0 1;
 }
 .hero .topbar .logo{
     width: 250px;
@@ -96,10 +98,10 @@ p{
 }
 
 .show-off{
-    padding: 80px 0;
+    padding: 80px 0 0;
 }
 .show-off .phone-img{
-    width: 450px;
+    width: 550px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -117,7 +119,17 @@ p{
     align-items: center;
     padding: 30px;
     margin: 5em auto 7em;
-    background: #F1F5F9
+    background: #F1F5F9;
+}
+
+.show-off .midify h4{
+    font-size: 7em;
+    text-align: left;
+    font-family: 'MBF';
+}
+.show-off .midify p{
+    font-size: 3em;
+    text-align: left;
 }
 
 .show-off .headline{
@@ -144,15 +156,15 @@ p{
 }
 
 .new-section{
-    margin: 150px 0;
+    margin: 3em 0;
 }
 .new-section .section-heading{
-    margin: 50px 0
+    margin: 0
 }
 
 
 
-@media (max-width: 560px){
+@media (max-width: 660px){
     .show-off{
         padding: 80px 0 0;
     }
@@ -161,9 +173,16 @@ p{
     }
     .show-off .midify{
         margin: 0;
+        max-width: 100%;
     }
     .show-off .headline ul li .cta .cta-btn{
         display: block;
+    }
+    .show-off .midify h4{
+        font-size: 3.5em;
+    }
+    .show-off .midify p{
+        font-size: 2em;
     }
 }
 
@@ -416,11 +435,11 @@ p{
 
 .footer{
     background: #F8FAFC;
-    padding: 10em 5em 0;
+    padding: 1.5em;
     margin: 0;
 }
 .footer .footer-content{
-    padding-bottom: 5em 
+    padding-bottom: 1em 
 }
 .footer .footer-content .logo{
     width: 200px;
@@ -438,15 +457,17 @@ p{
     justify-content: flex-start;
     margin-bottom: 3em;
 }
-
+.footer .footer-content .heading img{
+    margin-right: 10px;
+}
 .footer .footer-content h4{
-    margin-left: 0.5em;
+    /* margin-left: 0.5em; */
     margin-bottom: 0;
     color: #475569
 }
 
 .footer .footer-content .shifts p{
-    margin-left: 2em;
+    margin-left: 1em;
 }
 
 .footer .copyright p a{

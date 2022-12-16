@@ -10,7 +10,7 @@
 .product-slider .swiper .swiper-navBtn{
     position: absolute !important;
     top: 85% !important;
-    left: 40%;
+    left: 45%;
     transform: translateX(-50%);
     border: 2px solid #475569;
     padding: 20px;
@@ -18,7 +18,7 @@
 }
 
 .product-slider .swiper .swiper-navBtn.next{
-    left: 60% !important;
+    left: 55% !important;
 }
 .card{
     border: none;
@@ -64,7 +64,7 @@
 .testimonial-slider .slide-container{
     max-width: 95%;
     width: 100%;
-    padding: 40px 0 !important;
+    /* padding: 40px 0 !important; */
     position: relative;
 }
 .testimonial-slider .slide-container .card{
@@ -78,6 +78,12 @@
     padding: 40px 0;
     overflow: hidden;
 }
+
+.testimonial-slider .slide-content p{
+    width: 60%;
+    margin: auto;
+}
+
 .testimonial-slider .slide-content .quote, .testimonial-slider .slide-content .profile{
     margin: 4em 0;
 }
@@ -97,6 +103,12 @@
 }
 
 
+@media (max-width: 660px){
+    .testimonial-slider .slide-content p{
+        width: 90%;
+        margin: auto;
+    }
+}
 
 
 

@@ -85,6 +85,7 @@ var swiper = new Swiper(".slide-content.testimonial", {
 
 var swiper = new Swiper('.swiper-container', {
     direction: 'vertical',
+    slidesPerView: 1,
     grabcursor: 'true',
     mousewheel: true,
     setTransition : ('.swiper-container', 5000),
