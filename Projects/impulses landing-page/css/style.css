@@ -22,6 +22,11 @@ body{
     margin: auto
 }
 
+.container{
+    max-width: 1500px !important;
+    margin: auto !important;
+}
+
 .row{
     width: 100%;
     margin: auto;
@@ -111,6 +116,9 @@ p{
     align-items: center;
     justify-content: center
 }
+.cyan-overlay .show-off .phone-img{
+    width: 350px;
+}
 .show-off .phone-img img{
     width: 100%;
 }
@@ -127,12 +135,12 @@ p{
 }
 
 .new-section .show-off .midify h4{
-    font-size: 7em;
+    font-size: 5em;
     text-align: left;
     font-family: 'MBF';
 }
 .new-section .show-off .midify p{
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: left;
 }
 
@@ -230,6 +238,9 @@ p{
 /* Products section */
 /* ====================================================== */
 
+#products .container{
+    width: 100% !important;
+}
 
 .product-slider .swiper {
     width: 95%;

@@ -23,6 +23,9 @@
 .card{
     border: none;
 }
+.product-slider .swiper .card .describtion{
+    font-size: 16px;
+}
 .card-image{
     position: relative;
     height: 150px;
@@ -80,7 +83,7 @@
 }
 
 .testimonial-slider .slide-content p{
-    width: 60%;
+    width: 90%;
     margin: auto;
 }
 

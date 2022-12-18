@@ -88,6 +88,10 @@ var swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
     grabcursor: 'true',
     mousewheel: true,
+    mousewheel: {
+        invert: true,
+        sensitivity: 1,
+      },
     setTransition : ('.swiper-container', 5000),
     pagination: {
         el: '.swiper-pagination',
@@ -103,7 +107,7 @@ document.getElementById("swiperid").addEventListener("wheel", (e) => {
     console.log(e);
     const isEnd = swiper.isEnd;
     const isBegining = swiper.isBeginning;
-    if (e.deltaY > 0) {
+    if (e.deltaY > 90) {
         if (!isEnd) { e.preventDefault()
         swiper.slideNext()}
     } else {
