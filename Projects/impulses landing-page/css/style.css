@@ -59,7 +59,12 @@ p{
     color: #475569;
 }
 
-@media (max-width: 660px) {
+
+.pb-50{
+    padding-bottom: 50px !important;
+}
+
+@media (max-width: 760px) {
     h2{
         font-size: 40px;
     }
@@ -80,13 +85,22 @@ p{
     padding-bottom: 10px !important;
 }
 .hero .topbar{
-    padding: 1em 0 1;
+    padding: 1em 0;
+    margin-bottom: 3em;
 }
 .hero .topbar .logo{
     width: 250px;
 }
 .hero .topbar .logo img{
     width: 100%
+}
+.hero .show-off{
+    position: relative;
+}
+.hero .show-off .phone-img{
+    position: absolute;
+    top: -10%;
+    left: 15%;
 }
 
 .cta a{
@@ -107,7 +121,7 @@ p{
 
 
 .show-off{
-    padding: 80px 0 40px;
+    padding: 80px 0 0;
 }
 .show-off .phone-img{
     width: 450px;
@@ -129,8 +143,6 @@ p{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 30px;
-    margin: 5em auto 7em;
     background: #F1F5F9;
 }
 
@@ -168,7 +180,7 @@ p{
 }
 
 .new-section{
-    margin: 3em 0;
+    margin: 5em 0 0;
 }
 .new-section .section-heading{
     margin: 0
@@ -176,7 +188,7 @@ p{
 
 
 
-@media (max-width: 660px){
+@media (max-width: 760px){
     .show-off{
         padding: 80px 0 0;
     }
@@ -195,6 +207,12 @@ p{
     }
     .new-section .show-off .midify p{
         font-size: 1.2em;
+    }
+
+    .hero .show-off .phone-img{
+        position: relative;
+        top: 0;
+        left: 0;
     }
 }
 
@@ -334,7 +352,7 @@ p{
 .new-suggestions .confidence-box p {
     font-size: 18px;
     text-align: left;
-    width: 60%;
+    width: 75%;
 }
 .new-suggestions .confidence-box .absolute-img{
     position: absolute;
@@ -353,7 +371,7 @@ p{
         top: -60px;
     }
     .new-suggestions .confidence-box p{
-        width: 80%;
+        width: 88%;
     }
     .new-suggestions .confidence-box .absolute-img img{
         width: 100%;
@@ -369,8 +387,8 @@ p{
 }
 
 .callToAction .cta-box{
-    width: 85%;
-    margin: auto;
+    width: 70%;
+    margin: 5em auto;
     background-color: #F1F5F9;
     border-radius: 16px;
     padding: 1em;
@@ -404,7 +422,7 @@ p{
 
 @media (max-width: 560px){
     .callToAction .cta-box{
-        width: 100%;
+        width: 90%;
     }
 }
 
