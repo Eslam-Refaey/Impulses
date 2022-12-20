@@ -44,12 +44,12 @@ section{
 
 h2{
     font-family: 'MBF';
-    font-size: 75px;
+    font-size: 56px;
     color: #0F172A;
     text-transform: uppercase;
 }
 h4{
-    font-size: 26px;
+    font-size: 18px;
     font-family: 'poppins';
     font-weight: bold
 }
@@ -60,8 +60,8 @@ p{
 }
 
 
-.pb-50{
-    padding-bottom: 50px !important;
+.pb-80{
+    padding: 80px 0 80px !important;
 }
 
 @media (max-width: 760px) {
@@ -86,7 +86,7 @@ p{
 }
 .hero .topbar{
     padding: 1em 0;
-    margin-bottom: 3em;
+    margin-bottom: 10em;
 }
 .hero .topbar .logo{
     width: 250px;
@@ -99,18 +99,26 @@ p{
 }
 .hero .show-off .phone-img{
     position: absolute;
-    top: -10%;
-    left: 15%;
+    width: 610px;
+    top: -40%;
+    left: 10%;
 }
 
+.hero .topbar .cta{
+    width: 153px;
+    margin-left: auto;
+}
+.hero .cta{
+    width: 153px;
+}
 .cta a{
     background: #3C0F65;
     color: #FFF;
-    padding: 10px 20px;
+    padding: 7px 20px;
     border: 2px solid #3C0F65;
     border-radius: 8px;
     font-weight: bold;
-    font-size: 0.75em;
+    font-size: 18px;
 }
 .cta a:hover{
     background: transparent;
@@ -124,15 +132,17 @@ p{
     padding: 80px 0 0;
 }
 .show-off .phone-img{
-    width: 450px;
+    width: 277px;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center
 }
-.cyan-overlay .show-off .phone-img{
-    width: 350px;
+
+.hero .show-off .headline {
+    width: 100%;
 }
+
 .show-off .phone-img img{
     width: 100%;
 }
@@ -147,23 +157,23 @@ p{
 }
 
 .new-section .show-off .midify h4{
-    font-size: 5em;
+    font-size: 26px;
     text-align: left;
-    font-family: 'MBF';
+    font-family: 'poppins';
 }
 .new-section .show-off .midify p{
-    font-size: 2.5em;
+    font-size: 22px;
     text-align: left;
 }
 
 .show-off .headline{
     width: 90%;
-    margin: auto;
 }
 .show-off .headline ul{
     margin: 20px 0;
 }
 .show-off .headline ul li{
+    font-size: 16px;
     color: #94A3B8;
 }
 .show-off .headline ul li + li{
@@ -183,36 +193,52 @@ p{
     margin: 5em 0 0;
 }
 .new-section .section-heading{
-    margin: 0
+    margin: 0;
+    margin-bottom: 62px;
 }
 
 
 
 @media (max-width: 760px){
+    .hero .topbar{
+        padding: 1em 0;
+        margin-bottom: 2em;
+    }
     .show-off{
         padding: 80px 0 0;
     }
     .show-off .phone-img{
-        width: 390px;
+        width: 202px;
     }
     .show-off .midify{
         margin: 0;
         max-width: 100%;
     }
+    .show-off .midify .swiper-slide{
+        width: auto;
+        margin: auto;
+    }
     .show-off .headline ul li .cta .cta-btn{
         display: block;
     }
     .new-section .show-off .midify h4{
-        font-size: 3.5em !important;
+        font-size: 16px !important;
     }
     .new-section .show-off .midify p{
-        font-size: 1.2em;
+        font-size: 14px;
+    }
+    .hero .show-off{
+        padding: 0;
     }
 
     .hero .show-off .phone-img{
         position: relative;
         top: 0;
         left: 0;
+        width: 400px;
+    }
+    .new-section{
+        margin: 128px 0 0 !important;
     }
 }
 
@@ -291,7 +317,7 @@ p{
 
 
 #services .services-box{
-    margin-bottom: 10em
+    margin-bottom: 70px
 }
 
 #services .services-box .service-item{
@@ -356,7 +382,7 @@ p{
 }
 .new-suggestions .confidence-box .absolute-img{
     position: absolute;
-    top: -130px;
+    top: -150px;
     right: 0;
 }
 
@@ -366,15 +392,22 @@ p{
         margin-bottom: 10em;
         margin-bottom: 150px;
     }
+    .new-suggestions .confidence-box{
+        padding: 1.25em;
+    }
     .new-suggestions .confidence-box .absolute-img{
         width: 100px;
         top: -60px;
     }
     .new-suggestions .confidence-box p{
         width: 88%;
+        font-size: 14px;
     }
     .new-suggestions .confidence-box .absolute-img img{
         width: 100%;
+    }
+    .new-suggestions .sug-title h4{
+        font-size: 18px;
     }
 }
 
@@ -387,7 +420,7 @@ p{
 }
 
 .callToAction .cta-box{
-    width: 70%;
+    width: 60%;
     margin: 5em auto;
     background-color: #F1F5F9;
     border-radius: 16px;
@@ -420,9 +453,13 @@ p{
 }
 
 
-@media (max-width: 560px){
+@media (max-width: 760px){
     .callToAction .cta-box{
         width: 90%;
+    }
+    .callToAction .cta-box .cta-img{
+        width: 90%;
+        margin: auto;
     }
 }
 
@@ -468,7 +505,7 @@ p{
 
 .footer{
     background: #F8FAFC;
-    padding: 1.5em;
+    padding: 3em 1em 1em;
     margin: 0;
 }
 .footer .footer-content{
@@ -488,7 +525,7 @@ p{
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 }
 .footer .footer-content .heading img{
     margin-right: 10px;
@@ -502,7 +539,9 @@ p{
 .footer p{
     font-size: 18px;
 }
-
+.footer .footer-content .shifts{
+    margin-bottom: 70px;
+}
 .footer .footer-content .shifts p{
     margin-left: 1em;
 }
