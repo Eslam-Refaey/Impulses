@@ -1,32 +1,52 @@
 .slide-container{
-    max-width: 95%;
+    max-width: 99%;
     width: 100%;
     padding: 40px 0 !important;
     position: relative;
+}
+.product-slider{
+    width: 100%;
+    padding: 0;
 }
 .slide-container .slide-content {
     padding-bottom: 53px
 }
 .product-slider .swiper .swiper-navBtn{
+    display: block !important;
     position: absolute !important;
     top: 85% !important;
     left: 50%;
     transform: translateX(-50%);
     border: 3px solid #475569;
-    padding: 20px;
+    padding: 15px;
     border-radius: 50%;
-    width: 28px !important;
-    height: 28px !important;
+    width: 5px !important;
+    height: 5px !important;
+    margin-top: 1em;
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    content: 'prev';
+    position: absolute;
+    top: 17% !important;
+    left: 30% !important;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    content: 'next';
+    position: absolute;
+    top: 17% !important;
+    left: 40% !important;
 }
 
 .product-slider .swiper .swiper-navBtn.next{
     left: 55% !important;
 }
 .product-slider .swiper .swiper-navBtn.prev{
-    left: 47% ;
+    left: 47%;
 }
 .card{
     border: none;
+
 }
 .product-slider .swiper .card .describtion{
     font-size: 16px;
@@ -40,7 +60,7 @@
     height: 100%;
 }
 .slide-content{
-    margin: 0 40px;
+    margin: 0;
     overflow: hidden;
 }
 .image-content, .card-content{
@@ -53,6 +73,12 @@
     color: #DF2390 !important;
     transition: 0.5s ease;
 }
+.swiper-navBtn::after{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: translate(-50%, -50%);
+}
 .swiper-navBtn:hover{
     color: #3C0F65 !important;
 }
@@ -60,8 +86,6 @@
     font-size: 20px !important;
     font-weight: bolder;
 }
-
-
 
 @media (max-width: 760px) {
     .product-slider .swiper .swiper-navBtn{
@@ -77,7 +101,7 @@
 
 /* ============================================================= */
 /* testimonial slider */
-
+/* ============================================================= */
 
 .testimonial-slider{
     margin-bottom: 160px;
@@ -102,7 +126,7 @@
 }
 
 .testimonial-slider .slide-content p{
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
@@ -142,7 +166,7 @@
 /* =========================================================== */
 .midify .swiper-container {
     margin: auto;
-    height: 500px;
+    height: 150px;
     overflow: hidden;
     position: relative;
 }

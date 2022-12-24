@@ -40,9 +40,9 @@ var swiper = new Swiper(".slide-content", {
 
 
 var swiper = new Swiper(".slide-content.testimonial", {
-    slidesPerView: 3,
+    slidesPerView: 1,
     spaceBetween: 80,
-    autoplay: true,
+    autoplay: false,
     loop: 'true',
     centerSlide: 'true',
     fade: 'true',
