@@ -63,6 +63,12 @@
     margin: 0;
     overflow: hidden;
 }
+.slide-content p.describtion{
+    font-size: 16px;
+    margin-top: 20px;
+    color: #94A3B8;
+    letter-spacing: 1;
+}
 .image-content, .card-content{
     display: flex;
     flex-direction: column;
@@ -103,8 +109,12 @@
 /* testimonial slider */
 /* ============================================================= */
 
+#testimonials .section-heading{
+    margin: 0;
+}
+
 .testimonial-slider{
-    margin-bottom: 160px;
+    margin-bottom: 100px;
 }
 
 .testimonial-slider .slide-container{
@@ -120,7 +130,7 @@
     justify-content: space-between;
 }
 .testimonial-slider .slide-content{
-    margin: 0 40px;
+    margin: 0;
     padding: 40px 0;
     overflow: hidden;
 }
