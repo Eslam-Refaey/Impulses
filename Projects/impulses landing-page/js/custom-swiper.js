@@ -19,7 +19,7 @@ var swiper = new Swiper(".slide-content", {
     },
     breakpoints: {
         0: {
-            slidesPerView: 1,
+            slidesPerView: 2,
         },
         690: {
             slidesPerView: 2,
@@ -43,7 +43,6 @@ var swiper = new Swiper(".slide-content.testimonial", {
     slidesPerView: 1,
     spaceBetween: 80,
     autoplay: false,
-    loop: 'true',
     centerSlide: 'true',
     fade: 'true',
     grabCursor: 'true',
