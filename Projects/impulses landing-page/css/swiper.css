@@ -68,6 +68,7 @@
     margin-top: 20px;
     color: #94A3B8;
     letter-spacing: 1;
+    line-height: 1.2;
 }
 .image-content, .card-content{
     display: flex;
@@ -158,7 +159,6 @@
 .testimonial-slider .slide-content .profile .title{
     color: #94A3B8
 }
-
 
 @media (max-width: 760px){
     .testimonial-slider .slide-content p{

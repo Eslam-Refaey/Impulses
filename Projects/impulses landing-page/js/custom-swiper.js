@@ -42,19 +42,20 @@ var swiper = new Swiper(".slide-content", {
 var swiper = new Swiper(".slide-content.testimonial", {
     slidesPerView: 1,
     spaceBetween: 80,
-    autoplay: false,
+    autoplay: true,
+    loop: false,
     centerSlide: 'true',
+    draggable: true,
     fade: 'true',
     grabCursor: 'true',
+    simulateTouch: 'true',
     // centerInsufficientSlides: 'false',
     // centeredSlides: true,
-    // centeredSlidesBounds: false,
-    // direction: 'vertical',
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-        dynamicBullets: true,
-    },
+    // pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true,
+    //     dynamicBullets: true,
+    // },
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
