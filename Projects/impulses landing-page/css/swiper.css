@@ -107,6 +107,59 @@
 
 
 /* ============================================================= */
+/* Services Slider */
+/* ============================================================= */
+
+/* 
+.services-slider{
+    width: 100%;
+    padding: 0;
+}
+
+.services-slider .swiper .swiper-navBtn.next{
+    left: 55% !important;
+}
+.services-slider .swiper .swiper-navBtn.prev{
+    left: 47%;
+}
+.services-slider .swiper .card .describtion{
+    font-size: 16px;
+}
+
+.services-slider .swiper-navBtn{
+    color: #DF2390 !important;
+    transition: 0.5s ease;
+}
+.services-slider .swiper-navBtn::after{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: translate(-50%, -50%);
+}
+.services-slider .swiper-navBtn:hover{
+    color: #3C0F65 !important;
+}
+.services-slider .swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 20px !important;
+    font-weight: bolder;
+} */
+
+
+
+
+@media (max-width: 760px) {
+    .services-slider .swiper .swiper-navBtn{
+        left: 40% !important;
+    }
+    
+    .services-slider .swiper .swiper-navBtn.next{
+        left: 55% !important;
+    }
+}
+
+
+
+/* ============================================================= */
 /* testimonial slider */
 /* ============================================================= */
 

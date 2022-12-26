@@ -348,7 +348,7 @@ p{
 
 
 #services .services-box{
-    margin-bottom: 140px
+    margin-bottom: 140px;
 }
 
 #services .services-box .service-item{
@@ -358,6 +358,7 @@ p{
     justify-content: space-between;
     padding: 3em;
     border: 1px dashed #ffd3ed;
+    max-height: 340px;
 }
 #services .services-box .service-item .icon{
     margin: 50px auto;
@@ -375,6 +376,14 @@ p{
     transition: color 0.2s ease;
     cursor: pointer;
 }
+
+
+@media (max-width: 760px){
+    #services .services-box .service-item{
+        min-height: 500px;
+    }
+}
+
 
 
 /* ============================= New Suggestions ============================== */
