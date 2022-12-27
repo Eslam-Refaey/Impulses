@@ -8267,7 +8267,7 @@
       }
 
       function disableEl($el) {
-        $el.attr('aria-disabled', true);
+        $el.attr('aria-disabled', false);
       }
 
       function enableEl($el) {

@@ -25,6 +25,7 @@
     margin-top: 1em;
 }
 
+
 .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
     content: 'prev';
     position: absolute;
@@ -195,7 +196,7 @@
 }
 
 .testimonial-slider .slide-content .quote{
-    margin: 2em 0 4em;
+    margin: 1em 0;
 }
 
 .testimonial-slider .slide-content .profile{
@@ -214,9 +215,15 @@
 }
 
 @media (max-width: 760px){
+    .testimonial-slider .slide-content{
+        padding: 0;
+    }
     .testimonial-slider .slide-content p{
         width: 90%;
         margin: auto;
+    }
+    .testimonial-slider .slide-container{
+        padding: 0 !important;
     }
 }
 

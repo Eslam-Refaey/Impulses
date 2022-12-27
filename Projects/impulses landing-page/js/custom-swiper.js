@@ -1,9 +1,12 @@
-var swiper = new Swiper(".slide-content", {
+var swiper = new Swiper(".slide-content.products", {
     slidesPerView: 3,
     spaceBetween: 25,
     centerSlide: 'true',
     fade: 'true',
     grabCursor: 'true',
+    // allowSlideNext: true,
+    // allowSlidePrev: true,
+    loop: true,
     // centerInsufficientSlides: 'false',
     // centeredSlides: true,
     // centeredSlidesBounds: false,
@@ -19,7 +22,7 @@ var swiper = new Swiper(".slide-content", {
     },
     breakpoints: {
         0: {
-            slidesPerView: 2,
+            slidesPerView: 1,
         },
         690: {
             slidesPerView: 2,
