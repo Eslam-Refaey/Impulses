@@ -6,7 +6,7 @@ var swiper = new Swiper(".slide-content.products", {
     grabCursor: 'true',
     // allowSlideNext: true,
     // allowSlidePrev: true,
-    loop: true,
+    loop: false,
     // centerInsufficientSlides: 'false',
     // centeredSlides: true,
     // centeredSlidesBounds: false,
