@@ -222,24 +222,26 @@ p {
 }
 
 .show-off .headline ul {
-    margin: 20px 0;
+    margin: 20px 0 0 20px;
 }
 
-.show-off .headline ul li {
-    font-size: 16px;
-    color: #94A3B8;
+.hero .show-off .headline ul li {
+    font-family: 'poppins';
+    font-size: 24px;
+    color: #475569;
 }
+
 
 .show-off .headline ul li+li {
     margin-top: 10px
 }
 
 .show-off .headline ul li:last-of-type {
-    margin-top: 30px
+    margin-top: 30px;
+    list-style: none;
 }
 
 .show-off .headline ul li i {
-    color: #0BB78A;
     font-size: 1em;
     font-weight: bold;
     margin-right: 10px
