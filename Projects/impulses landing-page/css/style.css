@@ -241,6 +241,11 @@ p {
     list-style: none;
 }
 
+.show-off .headline ul li:nth-of-type(4){
+    list-style: none;
+    margin-left: -25px;
+}
+
 .show-off .headline ul li i {
     font-size: 1em;
     font-weight: bold;
