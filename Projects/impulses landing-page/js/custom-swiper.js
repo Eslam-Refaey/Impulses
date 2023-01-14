@@ -89,6 +89,7 @@ var swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
     grabcursor: 'true',
     mousewheel: true,
+    speed: 1500,
     mousewheel: {
         invert: true,
         sensitivity: 1,
@@ -99,7 +100,7 @@ var swiper = new Swiper('.swiper-container', {
         clickable: true
     },
     autoplay: {
-        delay: 4500,
+        delay: 3500,
         disableOnInteraction: false,
     }
 });
