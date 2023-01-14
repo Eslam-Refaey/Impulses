@@ -450,7 +450,6 @@ p {
 #services .services-box .service-item:hover h4 {
     color: #DF2390;
     transition: color 0.2s ease;
-    cursor: pointer;
 }
 
 
